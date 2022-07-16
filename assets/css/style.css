@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    padding: 20px 0 0 20px;
+}
+
+.japan {
+    border: 5px double black;
+    margin: 50px 0 0 20px;
+    width: 30vw;
+    min-width: 220px;
+    max-height: 90vh;
+    min-height: 41vh;
+}
+
+.prefecture:hover {
+    fill: darkmagenta;
+}
+
+.rightui {
+    padding: 15px; 
+    margin: 50px 0 0 0;
+    border: 5px double black; 
+    height: 270px;
+}
+
+.instructions {
+    margin: 50px 20px 0 50px;
+    text-align: justify;
+}
+
+.instructions h3 {
+    text-decoration: underline double;
+}
+
+.instructions p {
+    padding-top: 10px;
+}
+
+.buttonui {
+    padding: 15px;
+}
+
+.button {
+    color: darkblue;
+    background-color:cyan;
+    background: linear-gradient(0deg, rgba(0,0,213,1) 0%, rgba(12,141,193,1) 25%, rgba(15,202,230,1) 40%, rgba(163,239,255,1) 50%, rgba(15,202,230,1) 60%, rgba(12,141,193,1) 75%, rgba(0,0,213,1) 100%);
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.button:hover {
+    filter: brightness(75%);
+}
+
+#romaji {
+    font-weight: bold;
+    font-size: 17.5px;
+}
+
+#romaji, #hiragana, #kanji {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#attempts {
+    color: red;
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.resultsection {
+    padding: 15px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 750px) {
+    #guessgameoff {
+        flex-wrap: wrap;
+    }
+    #guessgameon {
+        flex-wrap: wrap;
+    }
+    .instructions{
+        margin: 20px 20px 0 20px;
+    }
+}
